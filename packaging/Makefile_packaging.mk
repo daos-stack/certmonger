@@ -44,7 +44,7 @@ DEBS             := $(addsuffix _$(DEB_VERS)-1_amd64.deb,$(shell sed -n '/-udeb/
 DEB_PREV_RELEASE := $(shell dpkg-parsechangelog -S version)
 DEB_DSC          := $(DEB_NAME)_$(DEB_PREV_RELEASE)$(GIT_INFO).dsc
 TARGETS := $(DEBS)
-endif
+else
 TARGETS := $(RPMS) $(SRPM)
 endif
 
