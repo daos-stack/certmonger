@@ -79,9 +79,9 @@ export LC_ALL = C.UTF-8
 endif
 else
 ifndef LANG
-export LANG = en_US.UTF-8
+export LANG = C.utf8
 endif
 ifndef LC_ALL
-export LC_ALL = en_US.UTF-8
+export LC_ALL = C.utf8
 endif
 endif
