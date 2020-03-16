@@ -1,0 +1,2 @@
+addFilter(".*tmpfile-not-in-filelist.*")
+setBadness('suse-dbus-unauthorized-service', 0)
